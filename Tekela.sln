@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.2.32516.85
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tekela_Restaurant", "Tekela_Restaurant", "{ED14BB5B-445B-4AF1-A4BB-88665F1701BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekela.web", "Tekela.web\Tekela.web.csproj", "{F57F52AF-3E73-4E12-91EA-249D3A2C25DB}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Services", "Services", "{854B581E-A0CE-42D1-91E0-464096B85E69}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tekela.Services.ProductAPI", "Tekela.Services.ProductAPI\Tekela.Services.ProductAPI.csproj", "{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F57F52AF-3E73-4E12-91EA-249D3A2C25DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F57F52AF-3E73-4E12-91EA-249D3A2C25DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F57F52AF-3E73-4E12-91EA-249D3A2C25DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F57F52AF-3E73-4E12-91EA-249D3A2C25DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F57F52AF-3E73-4E12-91EA-249D3A2C25DB} = {ED14BB5B-445B-4AF1-A4BB-88665F1701BF}
+		{D6C040F0-12FE-4D43-80DD-0D76BA63FCC8} = {854B581E-A0CE-42D1-91E0-464096B85E69}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {91162C6F-FD1B-42B8-9DA7-42E5B73AEC6B}
+	EndGlobalSection
+EndGlobal
